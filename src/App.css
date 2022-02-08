@@ -1,3 +1,7 @@
-.App-header {
+.App {
   margin: 50px;
+}
+
+.App-header {
+  margin-bottom: 30px;
 }
