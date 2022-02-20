@@ -1,0 +1,7 @@
+.Results .subheading {
+  display: flex;
+}
+
+.Results .subheading p {
+  margin: 6px 0 0 50px;
+}
