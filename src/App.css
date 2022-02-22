@@ -5,7 +5,8 @@ body {
 }
 
 .App {
-  margin: 70px;
+  margin: 70px auto;
+  max-width: 980px;
 }
 
 .App-header {

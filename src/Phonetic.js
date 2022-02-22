@@ -7,7 +7,7 @@ import { faPlay } from "@fortawesome/free-solid-svg-icons";
 
 export default function Phonetic(props) {
   if (props.phonetic.audio) {
-    const sound = new Audio(props.phonetic.audio);
+    let sound = new Audio(props.phonetic.audio);
 
     const playSound = () => {
       sound.play();
