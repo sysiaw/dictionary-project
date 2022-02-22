@@ -3,7 +3,7 @@ import React from "react";
 import "./Phonetic.css";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCirclePlay } from "@fortawesome/free-solid-svg-icons";
+import { faPlay } from "@fortawesome/free-solid-svg-icons";
 
 export default function Phonetic(props) {
   if (props.phonetic.audio) {
@@ -16,7 +16,7 @@ export default function Phonetic(props) {
     return (
       <span className="Phonetic">
         <audio src={sound}></audio>
-        <FontAwesomeIcon icon={faCirclePlay} size="2x" onClick={playSound} />
+        <FontAwesomeIcon icon={faPlay} className="icon" onClick={playSound} />
       </span>
     );
   } else {

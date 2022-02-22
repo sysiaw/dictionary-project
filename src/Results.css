@@ -3,5 +3,10 @@
 }
 
 .Results .subheading p {
-  margin: 6px 0 0 50px;
+  margin: 6px 0 0 60px;
+}
+
+.Results .phonetics {
+  font-size: 18px;
+  margin-top: 18px;
 }

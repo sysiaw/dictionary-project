@@ -1,3 +1,15 @@
-.Phonetic {
-  margin-right: 30px;
+.Phonetic .icon {
+  font-size: 13px;
+  border: 1.5px solid #272343;
+  color: white;
+  background: #272343;
+  border-radius: 100%;
+  padding: 10px 11px 10px 13px;
+  transition: all ease-in-out 100ms;
+}
+
+.Phonetic .icon:hover {
+  cursor: pointer;
+  color: #272343;
+  background: white;
 }

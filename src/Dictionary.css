@@ -2,6 +2,24 @@
   margin-bottom: 40px;
 }
 
-form {
-  margin-bottom: 30px;
+.Dictionary section {
+  background: #ffffff;
+  padding: 35px;
+  margin: 30px 0 30px 20px;
+  border-radius: 10px;
+  box-shadow: 6px 6px 6px #bae8e8;
+}
+
+.Dictionary input {
+  width: 70%;
+  border-radius: 5px;
+  padding: 7px 10px;
+  font-size: 17px;
+  color: #272343;
+  border: 1px solid black;
+  margin: 10px 0;
+}
+
+.Dictionary .hint {
+  font-size: 13px;
 }
