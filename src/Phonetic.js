@@ -4,6 +4,7 @@ import "./Phonetic.css";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlay } from "@fortawesome/free-solid-svg-icons";
+import { faVolumeXmark } from "@fortawesome/free-solid-svg-icons";
 
 export default function Phonetic(props) {
   if (props.phonetic.audio) {
@@ -20,6 +21,10 @@ export default function Phonetic(props) {
       </span>
     );
   } else {
-    return null;
+    return (
+      <span className="Phonetic">
+        <FontAwesomeIcon icon={faVolumeXmark} className="icon-not-available" />
+      </span>
+    );
   }
 }

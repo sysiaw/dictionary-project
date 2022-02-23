@@ -6,10 +6,17 @@
   border-radius: 100%;
   padding: 10px 11px 10px 13px;
   transition: all ease-in-out 100ms;
+  margin-right: 50px;
 }
 
 .Phonetic .icon:hover {
   cursor: pointer;
   color: #272343;
   background: white;
+}
+
+.Phonetic .icon-not-available {
+  color: #272343;
+  font-size: 22px;
+  margin: 0 52px 0 10px;
 }

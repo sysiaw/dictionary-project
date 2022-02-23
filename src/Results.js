@@ -20,8 +20,8 @@ export default function Results(props) {
           {props.results.phonetics.map(function (phonetic, index) {
             return (
               <div key={index} className="phonetics">
-                <Text text={phonetic} />
                 <Phonetic phonetic={phonetic} />
+                <Text text={phonetic} />
               </div>
             );
           })}
